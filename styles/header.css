@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: 'font1';
+    src: url('fonts/bebasneue-regular.woff2') format('woff2'),
+         url('fonts/bebasneue-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('fonts/black_chocolate-webfont.woff2') format('woff2'),
+         url('fonts/black_chocolate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'font3';
+  src: url('fonts/prompt-light-webfont.woff2') format('woff2'),
+       url('fonts/prompt-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'font4';
+  src: url('fonts/rowdies-light-webfont.woff2') format('woff2'),
+       url('fonts/rowdies-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*------------------------------------------------------------------*/
+
+.header{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+    padding-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+    background-image: linear-gradient(#ff9d2f, #ff6126);
+    border-bottom: 0.4pt solid #cacaca;
+
+  }
+  
+  /*Typing Effect*/
+  span{
+    animation: blinker 1s linear infinite;
+    font-size: 34pt;
+  }
+  
+  @keyframes blinker{
+    50%{
+      opacity: 0;
+    }
+  }
+
+  .intro-container {
+      max-width: 80%;
+      padding-left: 10%;
+  }
+
+  .greeting-text {
+    font-family: 'font2', Arial, sans-serif;
+    text-align: center;
+    
+    background: radial-gradient(circle, rgba(241,253,255,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-text-stroke: 0.4px rgb(0, 26, 255);
+
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .about-me-welcome {
+    font-family: 'font1', Arial, sans-serif;
+    text-align: center;
+
+    
+    color: #ffffff;
+    
+    -webkit-text-stroke: 0.4px rgb(0, 26, 255);
+    
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-top: 0;
+}

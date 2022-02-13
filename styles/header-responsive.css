@@ -1,0 +1,46 @@
+/*Fonts*/
+@font-face {
+    font-family: 'font1';
+    src: url('fonts/bebasneue-regular.woff2') format('woff2'),
+         url('fonts/bebasneue-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('fonts/black_chocolate-webfont.woff2') format('woff2'),
+         url('fonts/black_chocolate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'font3';
+  src: url('fonts/prompt-light-webfont.woff2') format('woff2'),
+       url('fonts/prompt-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'font4';
+  src: url('fonts/rowdies-light-webfont.woff2') format('woff2'),
+       url('fonts/rowdies-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*------------------------------------------------------------------*/
+
+.greeting-text {
+    font-size: 48pt;
+}
+
+.about-me-welcome {
+    font-size: 27pt;
+}
