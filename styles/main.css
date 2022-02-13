@@ -1,5 +1,83 @@
-.under-construction {
-    font-size: 24pt;
-    color: red;
+/*Fonts*/
+@font-face {
+    font-family: 'font1';
+    src: url('fonts/bebasneue-regular.woff2') format('woff2'),
+         url('fonts/bebasneue-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('fonts/black_chocolate-webfont.woff2') format('woff2'),
+         url('fonts/black_chocolate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'font3';
+  src: url('fonts/prompt-light-webfont.woff2') format('woff2'),
+       url('fonts/prompt-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'font4';
+  src: url('fonts/rowdies-light-webfont.woff2') format('woff2'),
+       url('fonts/rowdies-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*------------------------------------------------------------------*/
+
+.section-1 {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 40px;
+    border: 1pt solid #d4d4d4;    
+}
+
+.section-2 {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 40px;
+    border: 1pt solid #d4d4d4;
+ }
+
+.sections-container {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.section-heading {
+    font-size: 27pt;
+    font-family: "font4";
+    color: white;
     text-align: center;
+}
+
+.section-divider {
+    width: 70%;
+    color: white;
+}
+
+.section-text {
+    color: white;
+    text-align: center;
+    font-size: 14pt;
+    font-family: "font3";
+}
+
+.lang {
+    height: auto;
+    width: 20%;
+}
+
+.langs-container {
+    margin-left: 10%;
 }
