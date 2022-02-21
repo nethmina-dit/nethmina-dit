@@ -1,4 +1,4 @@
-<H1>Hello there!</H1>
+<H1 style="color: blue">Welcome to My Github Profile!</H1>
 
 <img src="https://profile-counter.glitch.me/nethmina-test/count.svg" class="counter-img">
 
