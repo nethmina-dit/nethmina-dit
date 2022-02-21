@@ -1,5 +1,7 @@
 <H1>Hello there!</H1>
 
+<img src="https://profile-counter.glitch.me/nethmina-test/count.svg" class="counter-img">
+
 - 👋 Hi, I’m @nethmina-dit
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
